@@ -1,0 +1,23 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    color: white;
+    align-items: center;
+}
+
+.Header-right {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 0.6rem;
+    margin-right: 2rem;
+}
+
+.Header-right > h3 {
+    padding-right: 1rem;
+}
+
+.logo {
+    margin-left: 2rem;
+}

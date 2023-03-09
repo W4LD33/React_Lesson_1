@@ -1,0 +1,70 @@
+.Main {
+    background-color: lightblue;
+    margin-top: 0.5rem;
+    height: 50rem;
+    padding-top: 2.5rem;
+}
+
+.main-text {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: x-large;
+}
+
+.form {
+    border: 1px solid black;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    background-color: white;
+}
+
+.main-input {
+    width: 30rem;
+    color: grey;
+    font-size: 20px;
+}
+
+.main-submit {
+    background-color: orange;
+    color: white;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    width: 7.5rem;
+}
+
+.main-input, .main-submit {
+    display: inline-block;
+    border-width: 0;
+}
+
+.form-text {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #ddd
+}
+
+.main-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-shadow: 1px 1px 1px #ddd;
+    padding-bottom: 3rem;
+}
+
+.main-boxes div {
+    background-color: rgba(255, 255, 255, 0.5);      
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-boxes > div:nth-child(3){
+    background-color: orange;
+}
