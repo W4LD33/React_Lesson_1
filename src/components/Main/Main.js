@@ -1,3 +1,4 @@
+import Categories from '../Categories/Categories.js'
 import '../Main/Main.css'
 function Main() {
     return (
@@ -14,25 +15,25 @@ function Main() {
                 21-day satisfaction guarantee, 14 days for eTextBooks
             </div>
             <div className='main-boxes'>
-                <div>
-                    SELL BOOKS
-                </div>
+                <Categories
+                    text="SELL BOOKS"
+                />
 
-                <div>
-                    <span>NEW</span>EXPLORE CAREERS
-                </div>
+                <Categories
+                    text="NEW EXPLORE CAREERS"
+                />
 
-                <div>
-                    24/7 STUDY HELP
-                </div>
+                <Categories
+                    text="24/7 STUDY HELP"
+                />
+                
+                <Categories
+                    text="RETURN BOOKS"
+                />
 
-                <div>
-                    RETURN BOOKS
-                </div>
-
-                <div>
-                    FIND INTERNSHIPS
-                </div>
+                <Categories
+                    text="FIND INTERNSHIPS"
+                />
             </div>
             <div className='form-text'>
                 Hate to wait? Courtesy eTextbook when available while your books are on the way. **
